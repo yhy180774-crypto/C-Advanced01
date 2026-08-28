@@ -1,7 +1,8 @@
 ﻿namespace C_Advanced01
 {
-    internal class Program
+    internal partial class Program
     {
+
         static void Main(string[] args)
         {
 
@@ -45,7 +46,7 @@
             #region Question03
 
             /// Q3: What are multiple type parameters? Write Pair<TKey, TValue>.
-            ///
+            /// 
             /// Multiple type parameters allow a generic class or method
             /// to work with more than one data type.
             ///
