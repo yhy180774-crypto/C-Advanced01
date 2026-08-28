@@ -238,7 +238,21 @@
 
 
 
+            #region Question13
 
+            /// Q13: What does the 'default' keyword do in generics?
+            ///
+            /// The default keyword returns the default value of a type.
+            ///
+            /// For value types such as int, the default value is 0.
+            /// For reference types such as string, the default value is null.
+            ///
+            /// Example:
+            ///
+            /// int number = default;
+            /// string text = default;
+
+            #endregion
 
 
 
