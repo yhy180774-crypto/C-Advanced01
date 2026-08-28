@@ -98,7 +98,19 @@
             #endregion
 
 
+            #region Question06
 
+            /// Q6: What is a generic interface? Write IRepository<T>.
+            ///
+            /// A generic interface is an interface that uses a type parameter.
+            ///
+            /// public interface IRepository<T>
+            /// {
+            ///     void Add(T item);
+            ///     T Get(int index);
+            /// }
+
+            #endregion
         }
     }
 }
