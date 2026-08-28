@@ -130,7 +130,19 @@
 
 
 
+            #region Question08
 
+            /// Q8: What is the 'class' constraint? Write an example.
+            ///
+            /// The class constraint means that T must be a reference type.
+            ///
+            /// public class ReferenceContainer<T>
+            ///     where T : class
+            /// {
+            ///     public T Value { get; set; }
+            /// }
+
+            #endregion
 
 
 
