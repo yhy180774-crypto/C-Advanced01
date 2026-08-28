@@ -337,7 +337,15 @@
 
 
 
+            #region Question18
 
+            /// Q18: How do static members work in generic types?
+            ///
+            /// Static members in generic types are separate for each closed
+            /// constructed type.
+            ///
+           
+            #endregion
 
 
 
