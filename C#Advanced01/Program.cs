@@ -189,7 +189,31 @@
             #endregion
 
 
+            #region Question11
 
+            /// Q11: What is the base class constraint? Write an example.
+            ///
+            /// A base class constraint means that T must inherit from
+            /// the specified base class.
+            ///
+            /// public class Animal
+            /// {
+            ///     public void Eat()
+            ///     {
+            ///         Console.WriteLine("Eating...");
+            ///     }
+            /// }
+            ///
+            /// public class AnimalContainer<T>
+            ///     where T : Animal
+            /// {
+            ///     public void MakeAnimalEat(T animal)
+            ///     {
+            ///         animal.Eat();
+            ///     }
+            /// }
+
+            #endregion
 
 
 
