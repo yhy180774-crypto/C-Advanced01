@@ -344,11 +344,37 @@
             /// Static members in generic types are separate for each closed
             /// constructed type.
             ///
-           
+
             #endregion
 
 
+            #region Question19
 
+            /// Q19: How can you inherit from a generic class?
+            ///
+            /// A class can inherit from a generic class by specifying
+            /// the type parameter.
+            ///
+            ///
+            /// public class Repository<T>
+            /// {
+            ///     public T Get()
+            ///     {
+            ///         return default;
+            ///     }
+            /// }
+            ///
+            /// public class StudentRepository
+            ///     : Repository<Student>
+            /// {
+            /// }
+            ///
+            /// public class Student
+            /// {
+            ///     public string Name { get; set; }
+            /// }
+
+            #endregion
 
 
 
