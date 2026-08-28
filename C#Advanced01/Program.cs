@@ -304,7 +304,16 @@
 
 
 
+            #region Question16
 
+            /// Q16: What is contravariance? Explain the 'in' keyword.
+            ///
+            /// Contravariance allows a generic type to use a base type
+            /// where a derived type is expected.
+            ///
+            /// The 'in' keyword is used for contravariance.
+            
+            #endregion
 
 
 
