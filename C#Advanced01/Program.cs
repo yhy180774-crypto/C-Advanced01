@@ -218,6 +218,24 @@
 
 
 
+            #region Question12
+
+            /// Q12: How do you apply multiple constraints? Write an example.
+            ///
+            /// Multiple constraints can be applied using multiple where clauses
+            /// or by combining constraints in one where clause.
+            ///
+            /// public class Repository<T>
+            ///     where T : class, IPrintable, new()
+            /// {
+            ///     public T Create()
+            ///     {
+            ///         return new T();
+            ///     }
+            /// }
+
+            #endregion
+
 
 
 
