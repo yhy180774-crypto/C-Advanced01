@@ -165,7 +165,28 @@
 
 
 
+            #region Question10
 
+            /// Q10: What is the interface constraint? Write an example.
+            ///
+            /// An interface constraint means that T must implement
+            /// the specified interface.
+            ///
+            /// public interface IPrintable
+            /// {
+            ///     void Print();
+            /// }
+            ///
+            /// public class Printer<T>
+            ///     where T : IPrintable
+            /// {
+            ///     public void PrintItem(T item)
+            ///     {
+            ///         item.Print();
+            ///     }
+            /// }
+
+            #endregion
 
 
 
