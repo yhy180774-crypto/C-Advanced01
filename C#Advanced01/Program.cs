@@ -312,12 +312,28 @@
             /// where a derived type is expected.
             ///
             /// The 'in' keyword is used for contravariance.
-            
+
             #endregion
 
 
 
+            #region Question17
 
+            /// Q17: What is the difference between covariance and contravariance?
+            ///
+            /// Covariance uses the 'out' keyword and is used when a generic type
+            /// produces or returns values.
+            ///
+            /// Contravariance uses the 'in' keyword and is used when a generic type
+            /// consumes or accepts values.
+            ///
+            /// Covariance:
+            /// out T
+            ///
+            /// Contravariance:
+            /// in T
+
+            #endregion
 
 
 
