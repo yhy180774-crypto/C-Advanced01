@@ -111,6 +111,49 @@
             /// }
 
             #endregion
+
+
+
+            #region Question07
+
+            /// Q7: What is the 'struct' constraint? Write an example.
+            ///
+            /// The struct constraint means that T must be a value type.
+            ///
+            /// public class ValueContainer<T>
+            ///     where T : struct
+            /// {
+            ///     public T Value { get; set; }
+            /// }
+
+            #endregion
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         }
     }
 }
